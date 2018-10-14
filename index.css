@@ -9,7 +9,8 @@ h1 { color:aqua;
     border:5px solid chocolate;
     padding:5px;
     border-radius: 10px;
-    
+   
+    bottom: 0px;
     padding-left: 100px;
     
 }
@@ -19,6 +20,7 @@ img {
     border-radius:300px;
     text-align: center;
     margin-left: 100px  
+    z-index: 100;
 }
  
 li {
@@ -37,4 +39,8 @@ li {
 
 submitbutton {
     box-shadow: 2px 2px 1px #90A4AE;
+}
+
+h4 {
+    border: dotted;
 }
